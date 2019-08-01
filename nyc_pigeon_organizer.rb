@@ -13,8 +13,9 @@ pigeon_list = {}
         if !pigeon_list[first_name][key]
           pigeon_list[first_name][key] = []
         end
+        binding.pry
+
         pigeon_list[first_name][key] << pigeon_array.to_s
-# binding.pry
       end
     end
   end
